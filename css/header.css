@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-left:5%;
+    padding-right:5%;
 
 }
 #dropDown {
@@ -54,8 +55,6 @@ a {
     font-size: 37px;
     font-family: 'Sacramento', cursive;
     color: #595959;
-    padding-left:9%;
-    padding-right:9%;
     /* width:100%; */
 }
 .logo:hover{
