@@ -53,7 +53,8 @@ a {
 .logo{
     /* border: 1px solid green; */
     /* margin:15px; */
-    font-size: 37px;
+    padding-top:9px;
+    font-size: 32px;
     font-family: 'Sacramento', cursive;
     color: #595959;
     /* width:100%; */
