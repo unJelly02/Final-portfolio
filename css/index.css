@@ -88,6 +88,7 @@ width:49%;
     /* background-color:rgb(253, 244, 244,  0.2); */
     background-color:#F5E9E7;
     padding-left:10%;
+    padding-right:10%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
