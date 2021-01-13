@@ -362,11 +362,11 @@ input[type=submit]:hover, .filledButton:hover {
         mix-blend-mode: multiply;
     } */
 
-
+/* 
     ul{
         display: none;
     }
-
+ */
 
 
 @media only screen and (max-width: 1000px) {
