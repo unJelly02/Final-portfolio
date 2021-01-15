@@ -106,8 +106,9 @@ width:49%;
 .secondShape{
     position:absolute;
     right:3%;
-    top:35%;
+    top:15%;
     width: 50%;
+    opacity:0.4;
 }
 .rentwingsShape{
     position:absolute;
@@ -237,9 +238,10 @@ p{
 }
 .icons:hover{
     cursor:pointer;
+    opacity:0.7;
 }
 .footer-text{
-    color: #595959;
+    color: #cea9a8;
     font-weight: bold;
 }
 .swingingDoodle{
