@@ -7,6 +7,7 @@ form.addEventListener('submit', e =>{
     fetch(scriptURL, { method :'POST', body: new FormData(form)})
     .then(response => alert("Thank you for contacting me! Cant wait to send you an owl back"))
     .catch(error =>console.error("Error!",error.message))
+    document.getElementById("myForm").reset();
 })
 
 $(function(){

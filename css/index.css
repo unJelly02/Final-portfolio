@@ -252,7 +252,7 @@ p{
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text],[type=email], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #E0C5C4; /* Gray border */
