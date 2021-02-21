@@ -63,4 +63,3 @@ function fade() {
     $(this).siblings(".toggle").find(".toggleContainer").removeClass("active");
   });
    
-  
