@@ -15,18 +15,18 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal('.name',{}); 
-sr.reveal('.subPara',{delay: 200}); 
-sr.reveal('.right',{delay: 400}); 
-sr.reveal('.filledButton',{delay: 500}); 
-sr.reveal('.workPage',{}); 
-sr.reveal('.Para',{delay: 200}); 
-sr.reveal('.right',{delay: 400}); 
-sr.reveal('.name',{ interval: 200}); 
+// sr.reveal('.name',{}); 
+// sr.reveal('.subPara',{delay: 200}); 
+// sr.reveal('.right',{delay: 400}); 
+// sr.reveal('.filledButton',{delay: 500}); 
+// sr.reveal('.workPage',{}); 
+// sr.reveal('.Para',{delay: 200}); 
+// sr.reveal('.right',{delay: 400}); 
+// sr.reveal('.name',{ interval: 200}); 
 
-sr.reveal('.card-body',{}); 
-sr.reveal('.card-title',{delay: 400}); 
-sr.reveal('.card-text',{delay: 400}); 
-sr.reveal('.heading',{}); 
-sr.reveal('.paragraph',{delay: 400}); 
-sr.reveal('.figure',{delay: 400}); 
+// sr.reveal('.card-body',{}); 
+// sr.reveal('.card-title',{delay: 400}); 
+// sr.reveal('.card-text',{delay: 400}); 
+// sr.reveal('.heading',{}); 
+// sr.reveal('.paragraph',{delay: 400}); 
+// sr.reveal('.figure',{delay: 400}); 
