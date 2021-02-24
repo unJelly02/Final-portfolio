@@ -4,3 +4,46 @@
 .mainPage{
     background-color: #EDF2F6!important;
 }
+.coverImage{
+    width:100%;
+    margin-bottom:10%;
+    object-fit:cover;
+    position:absolute;
+}
+@media only screen and (max-width: 600px) {
+    .coverImage{
+        position: relative;
+    }
+    .name{
+        padding-top:10%;
+        font-size:2rem;
+    }
+    .workPage .left {
+        display: flex;
+        align-items: center;
+    }
+    .workPage .right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .flexContainer{
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+    .swingingDoodle{
+        display:none;
+    }
+
+    .img{
+        width:300px;
+        height:270px;
+    }
+    .secondShape{
+        width: 80%;
+    }
+    .workPara{
+        height:200px;
+    }
+}
