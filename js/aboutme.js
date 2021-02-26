@@ -3,7 +3,7 @@ $(function(){
     $("#footer").load("footer.html"); 
 });
 
-console.log("Your index.js file is loaded correctly");
+// console.log("Your index.js file is loaded correctly");
 $("#toggle").on("click", function(){
     $("#dropDown").slideToggle();
 });

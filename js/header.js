@@ -1,4 +1,4 @@
-console.log("Your header.js file is loaded correctly");
+// console.log("Your header.js file is loaded correctly");
 $("#toggle").on("click", function(){
     $("#dropDown").slideToggle();
   });
@@ -62,4 +62,4 @@ function fade() {
     $(this).find(".toggleContainer").toggleClass("active");
     $(this).siblings(".toggle").find(".toggleContainer").removeClass("active");
   });
-   
+  
