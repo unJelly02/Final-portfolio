@@ -212,17 +212,7 @@ justify-content: center;
 p{
     font-size:1.3em;
 }
-.connect{
-    align-items: center;
-    justify-content: center;
-    display:flex;
-    flex-direction:column;
-    padding:3%;
-    background-color:#F5E9E7;
-    /* background: linear-gradient(45deg,#e9e4f0, #d3cce3); */
-    font-size:1.5em;
-    height:30vh;
-}
+
 .footerHeading{
     padding:10px;
 }
@@ -230,12 +220,6 @@ p{
     display:flex;
     flex-direction:row;
     gap:25px;
-}
-.icons{
-    /* padding:10px; */
-    border-radius:50%;
-    box-shadow: 0 4px 8px 0 rgba(54, 54, 54, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
 }
 .icons:hover{
     cursor:pointer;

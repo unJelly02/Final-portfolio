@@ -4,19 +4,19 @@ $(function(){
   $("#footer").load("footer.html"); 
 });
 
-/*===== SCROLL REVEAL ANIMATION =====*/
-const sr = ScrollReveal({
-  origin: 'top',
-  distance: '80px',
-  duration: 2000,
-  reset: true
-});
+// /*===== SCROLL REVEAL ANIMATION =====*/
+// const sr = ScrollReveal({
+//   origin: 'top',
+//   distance: '80px',
+//   duration: 2000,
+//   reset: true
+// });
 
-sr.reveal('.swingingDoodle',{}); 
-sr.reveal('.text-bottom',{delay: 200}); 
-sr.reveal('.firstShape',{delay: 400}); 
-sr.reveal('.name',{ interval: 200}); 
+// sr.reveal('.swingingDoodle',{}); 
+// sr.reveal('.text-bottom',{delay: 200}); 
+// sr.reveal('.firstShape',{delay: 400}); 
+// sr.reveal('.name',{ interval: 200}); 
 
-sr.reveal('.rentwingsShape',{}); 
-sr.reveal('.workTitle',{delay: 400}); 
-sr.reveal('.workPara',{delay: 400}); 
+// sr.reveal('.rentwingsShape',{}); 
+// sr.reveal('.workTitle',{delay: 400}); 
+// sr.reveal('.workPara',{delay: 400}); 
