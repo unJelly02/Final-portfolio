@@ -9,8 +9,28 @@
     justify-content: space-between;
     padding-left:5%;
     padding-right:5%;
-
-
+}
+/* .navbar .options a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navbar .options a:hover:after { 
+  width: 100%; 
+  left: 0; 
+} */
+.navbar,.navDemo{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
 }
 #dropDown {
     display: none;
@@ -54,7 +74,7 @@ a {
     /* border: 1px solid green; */
     /* margin:15px; */
     padding-top:9px;
-    font-size: 32px;
+    font-size: 28px;
     font-family: 'Sacramento', cursive;
     color: #595959;
     /* width:100%; */
@@ -114,13 +134,13 @@ nav{
         display:none;
     }
       /* new */
-      .line{
+      /* .line{
         width:30px;
         height:3px;
         background:#8e485f;
         /* background:white; */
-        margin:5px;
-    }
+        /* margin:5px; */
+    } */
     nav{
         position:relative;
     }
@@ -179,7 +199,7 @@ nav{
       }
 
     /* end */
-}
+
 @media only screen and (max-width: 600px) {
     .material-icons{
         font-size:30px;

@@ -1,9 +1,12 @@
 body{
     color: #595959;
     font-family: 'Quicksand', sans-serif;
-    margin: 0;
+    margin-top:60px;
     padding:0;
     box-sizing:border-box;
+}
+html{
+    scroll-behavior:smooth;
 }
 @keyframes showTopText {
     0% { transform: translate3d(0, 100%, 0); }
@@ -14,56 +17,11 @@ body{
     0% { transform: translate3d(0, -100%, 0); }
     100% { transform: translate3d(0, 0, 0); }
 }
-.animated-title {
-    height: 90vmin;
-    left: 30%;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60vmin;
-  }
-  .animated-title > div {
-    height: 50%;
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
-  }
-  .animated-title > div div {
-    padding: 2vmin 0;
-    position: absolute;
-  }
-  .animated-title > div div span {
-    display: block;
-  }
-  .animated-title > div.text-top {
-    border-bottom: 1vmin solid #595959;
-    top: 0;
-  }
-  .animated-title > div.text-top div {
-    animation: showTopText 1s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-    bottom: 0;
-    transform: translate(0, 100%);
-  }
-  .animated-title > div.text-top div span:first-child {
-    color: #767676;
-  }
-  .animated-title > div.text-bottom {
-    bottom: 0;
-  }
-  .animated-title > div.text-bottom div {
-    animation: showBottomText 0.5s;
-    animation-delay: 1.75s;
-    animation-fill-mode: forwards;
-    top: 0;
-    transform: translate(0, -100%);
-  }
 *{
     margin: 0;
 }
 .subTitle{
-    font-size:5em;
+    font-size:4em;
 }
 
 .subTitleText{
@@ -127,7 +85,7 @@ width:49%;
 }
 .subPara{
     font-size: 1.5em;
-    width:70%;
+    width:100%;
     color:#5d617c;
 }
 .workTitle{
@@ -250,11 +208,11 @@ input[type=text],[type=email], select, textarea {
 }
   /* Style the submit button with a specific background color etc */
 input[type=submit] , .filledButton{
-    background-color: #E0C5C4;
+    background-color: inherit;
     color: #595959;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 25px;
+    padding: 10px 16px;
+    border: 3px solid #E0C5C4;
+    border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 0 1rem 0 rgba(224, 197, 196, 0.6);
 }
@@ -274,7 +232,7 @@ input[type=submit] , .filledButton{
 
   /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover, .filledButton:hover {
-    background-color: #d4aead;
+    background-color: #f1dfde;
 }
   /* Add a background color and some padding around the form */
 .container {
@@ -334,27 +292,6 @@ input[type=submit]:hover, .filledButton:hover {
     box-shadow: 0 0 1rem 0 rgba(150,137, 175, .6);
     margin-top:4%;
 }
-/* .stamp {
-    transform: rotate(12deg);
-        color: #555;
-        font-size: 3rem;
-        font-weight: 700;
-        border: 0.25rem solid #555;
-        display: inline-block;
-        padding: 0.25rem 1rem;
-        text-transform: uppercase;
-        border-radius: 1rem;
-        font-family: 'Courier';
-        -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
-        -webkit-mask-size: 944px 604px;
-        mix-blend-mode: multiply;
-    } */
-
-/* 
-    ul{
-        display: none;
-    }
- */
 
 
 @media only screen and (max-width: 1000px) {
@@ -386,23 +323,6 @@ input[type=submit]:hover, .filledButton:hover {
         width:75%;
         }
 
-
-        /* .dropbtn {
-            background-color: #3498DB;
-            color: white;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-        }
-        
-        .dropbtn:hover, .dropbtn:focus {
-            background-color: #2980B9;
-        }.dropdown {
-            position: relative;
-            display: inline-block;
-          } */
-
     .workPara{
         /* font-weight: bold; */
         font-size:1.5em;
@@ -413,10 +333,6 @@ input[type=submit]:hover, .filledButton:hover {
 
 
     #toggle {
-        /* background-color: #FF6767;
-        padding: 15px;
-        color: white;
-        font-weight: 500; */
         cursor: pointer; 
     }
     ul {

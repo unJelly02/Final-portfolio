@@ -45,20 +45,7 @@ abbr[title]{
  dfn{
     font-style:italic
 }
-mark{
-    background:#ff0;
-    color:#000
-}
- small{
-    font-size:80%
-}
-sub,sup{
-    font-size:75%;
-    line-height:0;
-    position:relative;
-    vertical-align:baseline
-}
- sub{
+sub{
     bottom:-0.25em
 }
 sup{
@@ -324,17 +311,17 @@ a{
     display:block
 }
  .w3-dropdown-hover:first-child,.w3-dropdown-click:hover{
-    background-color:#ccc;
+    background-color:inherit;
     color:#000
 }
  .w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{
-    background-color:#ccc;
+    background-color:inherit;
     color:#000
 }
  .w3-dropdown-content{
     cursor:auto;
     color:#000;
-    background-color:#fff;
+    background-color:#f3e6e5;
     display:none;
     position:absolute;
     min-width:160px;
@@ -1049,11 +1036,13 @@ a{
     float:right!important
 }
  .w3-button:hover{
-    color:#595959!important;
+    color:#d89793!important;
     /* background-color:#ccc!important; */
-    background-color: #e4aca9!important;
+    /* background-color: #e4aca9!important; */
+    /* transition: width 0.3s ease 0s, left 0.3s ease 0s; */
     /* background-color: #f5e9e7!important; */
 }
+
  .w3-transparent,.w3-hover-none:hover{
     background-color:transparent!important
 }
