@@ -3,7 +3,6 @@
     /* background-color:rgb(253, 244, 244,  0.2); */
     /* background: linear-gradient(45deg,#e9e4f0, #d3cce3); */
     background-color:#F5E9E7;
-    height:64px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;

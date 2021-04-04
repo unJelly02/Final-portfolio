@@ -52,7 +52,10 @@
 .text{
     font-size: 1em;
 }
-
+.footer .scrollTop{
+    display:flex;
+    justify-content:flex-end;
+}
 .socialIcons{
     display:flex;
     flex-direction:row;

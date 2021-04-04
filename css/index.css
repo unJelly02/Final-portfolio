@@ -1,8 +1,7 @@
 body{
     color: #595959;
     font-family: 'Quicksand', sans-serif;
-    margin-top:60px;
-    padding:0;
+    padding-top:40px;
     box-sizing:border-box;
 }
 html{
@@ -72,11 +71,13 @@ width:49%;
     position:absolute;
     right:6%;
     width: 30%;
+    opacity:0.2;
     /* top:50%; */
 }
 .workPage{
     padding-left:10%;
     display: flex; 
+    background-color: #f9f9f9;;
 }
 .name{
     padding-top:3%;
@@ -89,17 +90,18 @@ width:49%;
     color:#5d617c;
 }
 .workTitle{
-    font-size:2.5em;
+    font-size:2.2em;
     font-weight: bold;
     text-align:center;
-width:45%;
+/* width:55%; */
+margin:0 6%;
 }
 .alignCenter{
     align-items: center;
 }
 .workPara{
     font-size:1.5em;
-    width:45%;
+    margin:0 6%;
     text-align:center;
 }
 .imageContainer{
@@ -143,20 +145,24 @@ justify-content: center;
     position:absolute;
     left:3%;
     width:50%;
+    opacity:0.2;
 }
 .kkfsf-shape1{
     position:absolute;
     left:4%;
+    /* opacity:0.2; */
 
 }
 .mpaShape{
     position:absolute;
     right:3%;
     height:300px;
+    opacity:0.2;
 }
 .mpaShape1{
     position:absolute;
     right:10%;
+    top:60%;
 }
 .padding20{
     padding-top:20%;
@@ -193,6 +199,7 @@ p{
 .mainPage.contact{
     flex-direction:column;
 }
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],[type=email], select, textarea {
@@ -274,8 +281,8 @@ input[type=submit]:hover, .filledButton:hover {
 .buttonContainer{
     display:flex;
     justify-content:space-evenly;
-    margin-right:18%;
     padding:2%;
+    z-index:2;
 }
 /* .flexContainer  h2{
     font-size:2em;
@@ -298,8 +305,8 @@ input[type=submit]:hover, .filledButton:hover {
 
     .workPage{
         display: block;
-        padding-left:2%;
-        padding-right:2%;
+        padding-left:5%;
+        padding-right:5%;
     }
     .workPage .left {
         display: flex;
@@ -380,12 +387,11 @@ input[type=submit]:hover, .filledButton:hover {
         width: 80%;
     }
     .workPara{
-        height:200px;
-        width:60%;
+        /* width:60%; */
         font-size:1.4em;
     }
     .workTitle{
-        width:70%;
+        /* width:70%; */
         font-size: 2.5em;;
     }
 }
