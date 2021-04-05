@@ -45,6 +45,7 @@ width:49%;
     /* background-color:rgb(253, 244, 244,  0.2); */
     background-color:#F5E9E7;
     padding-left:10%;
+    padding-top:5%;
     padding-right:10%;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -80,9 +81,7 @@ width:49%;
     background-color: #f9f9f9;;
 }
 .name{
-    padding-top:3%;
-    padding-bottom:2%; 
-    font-size:3em;
+    font-size:2.5rem;
 }
 .subPara{
     font-size: 1.5em;
@@ -90,7 +89,7 @@ width:49%;
     color:#5d617c;
 }
 .workTitle{
-    font-size:2.2em;
+    font-size:2em;
     font-weight: bold;
     text-align:center;
 /* width:55%; */
@@ -100,7 +99,7 @@ margin:0 6%;
     align-items: center;
 }
 .workPara{
-    font-size:1.5em;
+    font-size:1.1em;
     margin:0 6%;
     text-align:center;
 }
@@ -305,8 +304,6 @@ input[type=submit]:hover, .filledButton:hover {
 
     .workPage{
         display: block;
-        padding-left:5%;
-        padding-right:5%;
     }
     .workPage .left {
         display: flex;
@@ -318,10 +315,23 @@ input[type=submit]:hover, .filledButton:hover {
         justify-content:center;
         flex-direction: column;
     }
-    .workPage.kkfsf{
+    .workPage.rentwings{
         display: flex;
         align-items: center;
         flex-direction:column-reverse;
+        padding:0px;
+    }   
+    .workPage.kkfsf{
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        padding:0px;
+    }  
+    .workPage.mpa{
+        display: flex;
+        align-items: center;
+        flex-direction:column-reverse;
+        padding:0px;
     }
     .left, .right{
         width:100%;
@@ -359,16 +369,20 @@ input[type=submit]:hover, .filledButton:hover {
 @media only screen and (max-width: 600px) {
     .name{
         padding-top:10%;
-        font-size:2rem;
     }
     .workPage .left {
         display: flex;
         align-items: center;
+
+    }
+    .imageContainer{
+        padding-left:40px;
     }
     .workPage .right {
         display: flex;
         align-items: center;
         flex-direction: column;
+
     }
     .flexContainer{
         display:flex;
