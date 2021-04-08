@@ -16,9 +16,9 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal('.name',{}); 
-sr.reveal('.subPara',{delay: 200}); 
-sr.reveal('.quote',{delay: 400}); 
-sr.reveal('.buttonContainer',{ interval: 200}); 
-sr.reveal('.right',{}); 
-sr.reveal('.mySkills',{delay: 400}); 
+// sr.reveal('.name',{}); 
+// sr.reveal('.subPara',{delay: 200}); 
+// sr.reveal('.quote',{delay: 400}); 
+// sr.reveal('.buttonContainer',{ interval: 200}); 
+// sr.reveal('.right',{}); 
+// sr.reveal('.mySkills',{delay: 400}); 

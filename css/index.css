@@ -4,6 +4,10 @@ body{
     padding-top:40px;
     box-sizing:border-box;
 }
+#sacramentoFont{
+    font-family: sacramento;
+    font-size: 1.4em;
+}
 html{
     scroll-behavior:smooth;
 }
