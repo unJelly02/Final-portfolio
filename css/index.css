@@ -20,6 +20,9 @@ html{
     0% { transform: translate3d(0, -100%, 0); }
     100% { transform: translate3d(0, 0, 0); }
 }
+.imgOpacity{
+    opacity:0.5;
+}
 *{
     margin: 0;
 }
