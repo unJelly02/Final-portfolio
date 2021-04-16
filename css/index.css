@@ -8,6 +8,38 @@ body{
     font-family: sacramento;
     font-size: 1.4em;
 }
+.bgDesign{
+    width:100%;
+    opacity:0.8;
+    background-color: #f7f6f2;
+    /* background-image: url(images/aboutMe/bgDesignPink.png); */
+}
+.dQuotesection{
+
+    /* background-color: #f7f1ed; */
+    background-image: url("../images/aboutMe/bgDesignLightGray.png");
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    padding:7em 10em;
+}
+.designQuote{
+    font-size: 3.8em;
+    /* padding:3em; */
+}.author{
+    margin:1em;
+font-size: 1.5em;
+}
+@media only screen and (max-width:600px){
+    .designQuote{
+        font-size:2.5em;
+    }
+    .dQuotesection{
+        padding:2em 2em;
+    }
+}
 html{
     scroll-behavior:smooth;
 }
