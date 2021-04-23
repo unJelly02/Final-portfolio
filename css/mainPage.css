@@ -5,12 +5,3 @@
 .subTitleText{
     font-size:0.5em;
 }
-
-hr{
-    height: .25rem;
-    width: 25%;
-    margin: 0;
-    background: tomato;
-    border: none;
-    transition: .7s ease-out;
-}
