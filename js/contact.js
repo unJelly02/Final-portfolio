@@ -30,4 +30,3 @@ const sr = ScrollReveal({
 sr.reveal('.name',{}); 
 sr.reveal('.subPara',{delay: 200}); 
 sr.reveal('.container',{delay: 400}); 
-sr.reveal('.filledButton',{delay: 500}); 
