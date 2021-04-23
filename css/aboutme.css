@@ -1,6 +1,11 @@
 .flexContainer div{
     box-shadow: none!important;
 }
+.btnContainer{
+    display:flex;
+    justify-content:flex-start;
+    z-index:2;
+}
 .bgDesign{
     width:100%;
     opacity:0.8;

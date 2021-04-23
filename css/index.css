@@ -67,8 +67,7 @@ width:49%;
 }
 .mainPage{
     display: flex;
-    /* background-color:rgb(253, 244, 244,  0.2); */
-    background-color:#F5E9E7;
+    background-color:#fefaf7;
     padding-left:10%;
     padding-top:5%;
     padding-right:10%;
