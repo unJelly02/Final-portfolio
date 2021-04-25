@@ -325,6 +325,14 @@ input[type=submit]:hover, .filledButton:hover {
     margin-top:4%;
 }
 
+.arrows{
+    padding:6%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftArrow .material-icons, .rightArrow .material-icons{
+    display:block !important;
+}
 
 @media only screen and (max-width: 1000px) {
 
