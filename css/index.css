@@ -278,18 +278,7 @@ input[type=submit]:hover, .filledButton:hover {
     margin-top:4%;
 }
 
-/* about me page css */
-.polaroid {
-    position: relative;
-    width: 90%;
-}
-.polaroid img {
-    border: 10px solid #fff;
-    border-bottom: 45px solid #fff;
-    -webkit-box-shadow: 3px 3px 3px #777;
-    -moz-box-shadow: 3px 3px 3px #777;
-    box-shadow: 3px 3px 3px #777;
-}
+
 #quote{
     font-size:2em;
     opacity:0.5;

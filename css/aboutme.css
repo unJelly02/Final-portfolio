@@ -1,6 +1,17 @@
 .flexContainer div{
     box-shadow: none!important;
 }
+.polaroid {
+    position: relative;
+    width: 90%;
+}
+.polaroid img {
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #777;
+    -moz-box-shadow: 3px 3px 3px #777;
+    box-shadow: 3px 3px 3px #777;
+}
 .btnContainer{
     display:flex;
     justify-content:flex-start;
