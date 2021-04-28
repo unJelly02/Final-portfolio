@@ -9,6 +9,10 @@ body{
         border-bottom: 1px solid #fefaf7;
     
 }
+img:hover{
+    width:100%;
+    
+}
 hr{
     height: 2px;
     background: #fefaf7;
