@@ -30,3 +30,7 @@ sr.reveal('.card-text',{delay: 400});
 sr.reveal('.heading',{}); 
 sr.reveal('.paragraph',{delay: 400}); 
 sr.reveal('.figure',{delay: 400}); 
+
+scaleImg= ()=>{
+    document.getElementsByTagName("img").style.transform ="scale(1.5)";
+}

@@ -9,9 +9,11 @@ body{
         border-bottom: 1px solid #fefaf7;
     
 }
-img:hover{
-    width:100%;
-    
+.fontSize2{
+    font-size: 2em;
+}
+.fontSize1point5{
+font-size:1.7em;
 }
 hr{
     height: 2px;
@@ -106,7 +108,7 @@ width:49%;
 .workPage{
     padding-left:10%;
     display: flex; 
-    background-color: #fafafa;;
+    background-color: #fdfdfd;;
 }
 .name{
     font-size:2.8rem;
@@ -155,6 +157,11 @@ padding:15px 30px;
 font-size:30px;
 display:flex;
 justify-content: center;
+}
+.imageScale:hover {
+    /* opacity: 1; */
+    cursor:pointer;
+    transform: scale(1.5);
 }
 .imageContainer:hover {
     /* opacity: 1; */
