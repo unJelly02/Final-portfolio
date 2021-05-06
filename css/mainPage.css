@@ -2,7 +2,7 @@
     font-size:5em;
 } */
 .magicQuotesection,.magicDarkQuotesection,
-.dQuotesection,.covidReliefSection{
+.dQuotesection{
 
     background-color: #f7f1ed;
     display:flex;
@@ -18,7 +18,9 @@
     opacity:0.3;
 }
 .covidReliefSection{
-    background-color: #fde8e6;
+    background-color: #ffefef;
+    text-align: center;
+    padding:5em 0;
 }
 .dQuotesection{
 
