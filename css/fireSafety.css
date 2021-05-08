@@ -8,6 +8,14 @@
     align-items: center;
 
 }
+.flexContainer div{
+    box-shadow: none!important;
+}
+.flex{
+
+    display:flex;
+    justify-content: space-around;
+}
 .demandCol {
     display:flex;
     flex-direction: column;
