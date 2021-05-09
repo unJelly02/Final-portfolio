@@ -11,6 +11,9 @@
 .flexContainer div{
     box-shadow: none!important;
 }
+.mainPage{
+    justify-content:center;
+}
 .flex{
 
     display:flex;
