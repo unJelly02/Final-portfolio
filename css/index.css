@@ -51,7 +51,7 @@ html{
     margin: 0;
 }
 .subTitle{
-    font-size:4em;
+    font-size:3em;
 }
 
 .subTitleText{
@@ -75,7 +75,7 @@ width:49%;
     display: flex;
     background-color:#fefaf7;
     padding-left:10%;
-    padding-top:5%;
+    padding-top:3%;
     padding-right:10%;
     flex-wrap: wrap;
     justify-content: space-between;

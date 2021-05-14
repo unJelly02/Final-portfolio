@@ -1,0 +1,7 @@
+.addEmail{
+    display:flex;
+    justify-content: space-between;
+}
+.icons .material-icons{
+    display:block !important;
+}
