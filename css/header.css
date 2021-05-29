@@ -1,9 +1,10 @@
 .navbar{
-    background-color:#fefaf7;
+    background-color:#fefaf7 ;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     padding:1% 10%;
+    box-shadow: 0 0 1rem 0 rgba(224, 197, 196, 0.8);
 }
 /* .navbar .options a:after {    
   background: none repeat scroll 0 0 transparent;

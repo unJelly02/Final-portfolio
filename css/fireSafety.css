@@ -8,6 +8,33 @@
     align-items: center;
 
 }
+.mainbackDrop{
+    background-image: url("../images/kkfsf/kkfsfBgCover.png");
+}
+.divider{
+    display:flex;
+    gap:5%;
+}
+.finalThoughts{
+    display:flex;
+    flex: 40%;
+}
+.storyBehind{
+    padding:4% 0;
+    text-align: left;
+}
+.introClass{
+    display:flex;
+    justify-items: space-between;
+    align-items:flex-start;
+}
+.introClass div{
+    display:flex;
+    flex: 33%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
 .flexContainer div{
     box-shadow: none!important;
 }

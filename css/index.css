@@ -4,9 +4,19 @@ body{
     padding-top:40px;
     box-sizing:border-box;
 }
+.black{
+    color:#2b2b2b;
+}
+.bgImage{
+    width:100%;
+    /* margin-bottom:10%; */
+    object-fit:cover;
+    height:100vh;
+    position:absolute;
+}
 .clearLine{
     margin-top:2px;
-        border-bottom: 1px solid #fefaf7;
+        border-bottom: 1px solid #fefaf7 ;
     
 }
 .fontSize2{
@@ -17,7 +27,7 @@ font-size:1.7em;
 }
 hr{
     height: 2px;
-    background: #fefaf7;
+    background: #fefaf7 ;
     border: none;
     margin-top:2px;
 }
@@ -61,6 +71,12 @@ html{
 .left, .right{
 width:49%;
 }
+.coverImage{
+    width:100%;
+    margin-bottom:10%;
+    object-fit:cover;
+    position:absolute;
+}
 .left{
     display:flex;
     flex-direction:column;
@@ -71,9 +87,17 @@ width:49%;
 .right{
     padding-top: 4%;
 }
+.main{
+        display: flex;
+        background-color:#fefaf7 ;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:5% 10%;
+        justify-content: center;
+}
 .mainPage{
     display: flex;
-    background-color:#fefaf7;
+    background-color:#fefaf7 ;
     padding-left:10%;
     padding-top:3%;
     padding-right:10%;
@@ -108,16 +132,16 @@ width:49%;
 .workPage{
     padding-left:10%;
     display: flex; 
-    background-color: #fdfdfd;;
+    /* background-color: #fdfdfd;; */
+    background-color: #fefaf7 ;;
 }
 .name{
     font-size:2.8rem;
     padding: 10px 0px;
 }
 .subPara{
-    font-size: 1.3em;
+    font-size: 1.2em;
     width:100%;
-    color:#5d617c;
 }
 .workTitle{
     font-size:2em;
@@ -209,7 +233,7 @@ justify-content: center;
     padding-right:10%;
 }
 p{
-    font-size:1.3em;
+    font-size:1.2em;
 }
 
 .footerHeading{
@@ -253,10 +277,11 @@ input[type=submit] , .filledButton{
     background-color: inherit;
     color: #595959;
     padding: 10px 16px;
-    border: 3px solid #e2bdbc;
+    /* border: 3px solid #e2bdbc; */
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    /* box-shadow: 0 0 1rem 0 rgba(224, 197, 196, 0.6); */
+    box-shadow: 0 0 1rem 0 rgba(202, 197, 186, 0.9);
 }
 .alignCenter{
     align-items: center;;
@@ -288,7 +313,21 @@ input[type=submit]:hover, .filledButton:hover {
     width:75%;
     margin-top:4%;
 }
+.problemStatement{
 
+    background-color: #F9f9f9;;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    padding:7em 10em;
+}
+.problemQuote{
+
+    /* background-image: url("../images/home/grayDotsBg.png"); */
+    font-size:3em;
+}
 
 #quote{
     font-size:2em;

@@ -4,12 +4,6 @@
 .mainPage{
     background-color: #EDF2F6!important;
 }
-.coverImage{
-    width:80%;
-    margin-bottom:10%;
-    object-fit:cover;
-    position:absolute;
-}
 @media only screen and (max-width: 600px) {
     .coverImage{
         position: relative;
