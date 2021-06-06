@@ -14,6 +14,9 @@ body{
 .projectSubTitle{
     font-size:1.5rem;
 }
+strong{
+    color:#000000;
+}
 .black{
     color:#2b2b2b;
 }
@@ -80,6 +83,10 @@ html{
 
 .left, .right{
 width:49%;
+}
+.centerAlign{
+    display:flex;
+    justify-content: center;
 }
 .coverImage{
     width:100%;
@@ -331,7 +338,7 @@ input[type=submit]:hover, .filledButton:hover {
     align-items: center;
     text-align: center;
     justify-content:center;
-    padding:7em 10em;
+    padding:7% 10%;
 }
 .problemQuote{
 
