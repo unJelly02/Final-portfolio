@@ -1,0 +1,78 @@
+.imgCol{
+    display:flex;
+    flex: 33%;
+    justify-content: space-between;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap:4%;
+    align-items: center;
+
+}
+.mainbackDrop{
+    background-image: url("../images/guzi/GuziPNG.png");
+}
+.divider{
+    display:flex;
+    gap:5%;
+}
+.finalThoughts{
+    display:flex;
+    flex: 40%;
+}
+.storyBehind{
+    padding:4% 0;
+    text-align: left;
+}
+.introClass{
+    display:flex;
+    justify-items: space-between;
+    align-items:flex-start;
+}
+.introClass div{
+    display:flex;
+    flex: 33%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.flexContainer div{
+    box-shadow: none!important;
+}
+.mainPage{
+    justify-content:center;
+}
+.flex{
+
+    display:flex;
+    justify-content: space-around;
+}
+.demandCol {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+.userStmts{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size:medium;
+}
+.victoria, .ethan{
+    padding-top:10px;
+    width:20%;
+}
+.radhika{
+    width:38%;
+    padding-top:10px;
+}
+@media only screen and (max-width: 600px) {
+    .victoria, .ethan, .radhika{
+        width:100%;
+    }
+    .userStmts{
+        display: block;
+    }
+}
