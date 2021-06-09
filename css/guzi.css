@@ -8,6 +8,9 @@
     align-items: center;
 
 }
+.rem5{
+    font-size: 6rem;
+}
 .mainbackDrop{
     background-image: url("../images/guzi/GuziPNG.png");
 }
