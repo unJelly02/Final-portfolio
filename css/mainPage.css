@@ -15,6 +15,43 @@
     font-size:1.3em;
 
 }
+.styleModuleCards{
+    z-index:101;
+    pointer-events: none;
+}
+.cardStackModuleCard{
+    width: calc(85vmin - 3rem);
+    height: calc(85vmin - 3rem);
+    overflow: hidden;
+    /* background-color: var(--color-background); */
+    /* background-color: #a4c9d8; */
+    box-shadow: 2px 5px 27px rgb(0 0 0 / 32%);
+    cursor: grab;
+    will-change: transform;
+    user-select: none;
+    touch-action: none;
+}
+.cardStackModuleWrapper{
+    height:80VH;
+    display:grid;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.cardStackModuleInner{
+    position: absolute;
+    right: 0;
+    left: 0;
+    will-change: transform;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+.cardStackModuleImage{
+    width:100%;
+    height:100%;
+}
 
 .magicQuotesection,.magicDarkQuotesection,
 .dQuotesection{
@@ -115,6 +152,15 @@ font-size: 1.5em;
     }
     .magicQuotesection{
         padding:2em 2em;
+    }
+    .cardStackModuleCard{
+        width:calc(22rem + 12vmin);
+        height:calc(22rem + 12vmin)
+    }
+    .styleModuleCards{
+        order:1;
+        grid-column:span 2;
+        grid-row: 1;
     }
     /* .face{
         width:40px;
