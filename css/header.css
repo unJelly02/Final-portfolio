@@ -42,6 +42,8 @@
 .navItem:hover{
     color:#e4aca9;
     cursor:pointer;
+    transform: translateY(-3px) .25s ease;
+
 }
 a {
     color: #595959;

@@ -30,6 +30,12 @@ rel="stylesheet">
         <div class="mainPage contact">
             <div class="addEmail">
                 <div class="name" >Hello from the other side!</span></div> 
+                <div class="blinkEyedGuy">
+                    <div class="face">
+                        <div class="eye"></div>
+                        <div class="eye"></div>
+                    </div>
+                </div>
                 <!-- <div class="email">
                     <div class="label">copy email</div>
                     <button class="icon" onclick ="copyEmail()"><span class="material-icons-outlined">
@@ -49,19 +55,22 @@ rel="stylesheet">
 
             <div class="container">
                 <form method="POST" id= "myForm" name="google-sheet">
-                <label for="name"> Name</label>
+                <label for="name"> First and Last Name</label>
                 <input type="text" id="name" name="name" placeholder="Ex:Harry Potter" required>
 
-                <label for="email">Email</label>
+                <label for="email">Your Email</label>
                 <input type="text" id="email" name="email" placeholder="Ex: harryPotter@hogwarts.com" required>
 
-                <label for="subject">Subject</label>
+                <label for="subject">Describe your needs</label>
                 <textarea id="subject" name="subject" placeholder="Write something..(A cheque for a million dollars to me would be nice!)" style="height:200px" required></textarea>
-                    <button class = "filledButton" type="submit" >Submit</button>
+                    <!-- <button class = "filledButton" type="submit" >send me</button> -->
+                    <div class = "buttonContainer" type="submit" style = "justify-content:start;padding-left:0px;">
+                        <a target="_blank" > 
+                        <button class = "filledButton" href = "#"><span>send me</span></button>
+                        </a>
+                    </div>
                 </form>
             </div>
-            <!-- <img class ="secondShape" src = "images/shapes/Ellipse 3.svg"/> -->
-            <br>
         
         </div>
         </div>

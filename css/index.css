@@ -47,6 +47,7 @@ hr{
 #sacramentoFont{
     font-family: sacramento;
     font-size: 1.4em;
+    color:#45868f;
 }
 .bgDesign{
     width:100%;
@@ -294,11 +295,20 @@ input[type=submit] , .filledButton{
     background-color: inherit;
     color: #595959;
     padding: 10px 16px;
-    /* border: 3px solid #e2bdbc; */
-    border: none;
-    border-radius: 5px;
+    z-index:0;
+    border: 3px solid #50959e;
+    border-radius: 35px;
     cursor: pointer;
-    box-shadow: 0 0 1rem 0 rgba(202, 197, 186, 0.9);
+    box-shadow: 0 0 1rem 0 rgba(166, 208, 211, 0.4);
+    transition: all .35s;
+    position: relative;
+}
+.filledButton span :after{
+    color:#fff;
+}
+.filledButton span{
+    z-index:2;
+    /* color: #fff; */
 }
 .alignCenter{
     align-items: center;;
@@ -313,11 +323,41 @@ input[type=submit] , .filledButton{
     box-shadow: 0 0 1rem 0 rgba(150,137, 175, 0.4);
 
 }
+.buttonContainer a{
+    position: relative;
+    z-index:2;
+  }
+  
+  
+  .buttonContainer a :after{
+    position: absolute;
+    content: "";
+    /* padding: 10px 16px; */
+    /* border: 3px solid #50959e; */
+    border-radius: 35px;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index:-1;
+    height: 100%;
+    color:#fff;
+    background-color: #c9e8ea;
+    transition: all .35s;
+    /* color:#fff; */
+  }
 
-  /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover, .filledButton:hover {
-    background-color: #f1dfde;
+  
+  .filledButton a span:after{
+    color: #fff;
+  }
+  
+
+
+
+input[type=submit]:hover:after, .filledButton:hover:after {
+width:100%;
 }
+
   /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
