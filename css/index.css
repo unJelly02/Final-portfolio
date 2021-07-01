@@ -29,7 +29,7 @@ strong{
 }
 .clearLine{
     margin-top:2px;
-        border-bottom: 1px solid #fefaf7 ;
+        border-bottom: 1px solid #f5f6f0 ;
     
 }
 .fontSize2{
@@ -40,14 +40,14 @@ font-size:1.7em;
 }
 hr{
     height: 2px;
-    background: #fefaf7 ;
+    background: #f5f6f0 ;
     border: none;
     margin-top:2px;
 }
 #sacramentoFont{
     font-family: sacramento;
     font-size: 1.4em;
-    color:#45868f;
+    color:#697db7;
 }
 .bgDesign{
     width:100%;
@@ -107,7 +107,7 @@ width:49%;
 }
 .main{
         display: flex;
-        background-color:#fefaf7 ;
+        background-color:#f5f6f0 ;
         flex-wrap: wrap;
         justify-content: space-between;
         padding:5% 10%;
@@ -115,7 +115,7 @@ width:49%;
 }
 .mainPage{
     display: flex;
-    background-color:#fefaf7 ;
+    background-color:#f5f6f0 ;
     padding-left:10%;
     padding-top:3%;
     padding-right:10%;
@@ -151,15 +151,11 @@ width:49%;
     padding-left:10%;
     display: flex; 
     /* background-color: #fdfdfd;; */
-    background-color: #fefaf7 ;;
+    background-color: #f5f6f0 ;;
 }
 .name{
     font-size:2.8rem;
     padding: 10px 0px;
-}
-.subPara{
-    font-size: 1.2em;
-    width:100%;
 }
 .workTitle{
     font-size:2em;
@@ -296,7 +292,7 @@ input[type=submit] , .filledButton{
     color: #595959;
     padding: 10px 16px;
     z-index:0;
-    border: 3px solid #50959e;
+    border: 3px solid #697db7;
     border-radius: 35px;
     cursor: pointer;
     box-shadow: 0 0 1rem 0 rgba(166, 208, 211, 0.4);
@@ -333,7 +329,7 @@ input[type=submit] , .filledButton{
     position: absolute;
     content: "";
     /* padding: 10px 16px; */
-    /* border: 3px solid #50959e; */
+    /* border: 3px solid #697db7; */
     border-radius: 35px;
     top: 0;
     left: 0;
@@ -341,7 +337,7 @@ input[type=submit] , .filledButton{
     z-index:-1;
     height: 100%;
     color:#fff;
-    background-color: #c9e8ea;
+    background-color: #d5e0fb;
     transition: all .35s;
     /* color:#fff; */
   }
@@ -419,6 +415,14 @@ width:100%;
     background: inherit;
     box-shadow: 0 0 1rem 0 rgba(150,137, 175, .6);
     margin-top:4%;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+}
+.flexContainer div:hover{
+    width:43%;
+    color:#121212;
+/* transition: transform linear 2s; */
+transform: scale(1.05) linear 2s;
 }
 
 .arrows{
@@ -448,19 +452,19 @@ width:100%;
     .workPage.rentwings{
         display: flex;
         align-items: center;
-        flex-direction:column-reverse;
+        flex-direction:column;
         padding:0px;
     }   
     .workPage.kkfsf{
         display: flex;
         align-items: center;
-        flex-direction:column;
+        flex-direction:column-reverse;;
         padding:0px;
     }  
     .workPage.mpa{
         display: flex;
         align-items: center;
-        flex-direction:column-reverse;
+        flex-direction:column;
         padding:0px;
     }
     .left, .right{

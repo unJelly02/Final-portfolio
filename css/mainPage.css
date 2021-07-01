@@ -8,6 +8,243 @@
     justify-content:center;
     align-items:center;
 }
+.subText{
+    font-size: 0.9em;
+    width:100%;
+}
+.brandStmt{
+    font-size: 4vw;
+    color: #697db7;
+
+}
+.frame{
+    position:relative;
+    width:36rem;
+    height:36rem;
+    background:inherit;
+    overflow:hidden;
+}
+.track{
+    position:absolute;
+    z-index:1;
+    top:18rem;
+    left:18rem;
+    width:36rem;
+    height:36rem;
+    border-radius:50%;
+    border:6px dashed #666666;
+}
+.circle{
+    position:absolute;
+    z-index:1;
+    top:18rem;
+    left:18rem;
+    width:36rem;
+    height:36rem;
+    border-radius:50%;
+    /* background: #7b9fec; */
+    transform:
+    translate(-50%,
+    -50%);
+}
+
+
+.point{
+    position:absolute;
+    top:0;
+    left:50%;
+    width: 50px;;
+    height:50px;
+    background-color:#eea6a4;
+    border-radius:50%;
+    padding:30px;
+    transform:translate(-95%,-95%);
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(20deg);
+    }
+    100%{
+        transform:rotate(-340deg);
+    }
+}
+.circle{
+
+    animation:rotate 10s infinite linear;
+}
+
+.stack {
+	position: relative;
+	/* margin-top: 50vh;
+	margin-left: 50vw;
+	transform: translate(-50%,-50%); */
+
+    width: 100%;
+	height: 100%;
+}
+.card {
+
+	background-color: #f5f6f0;
+	/* background: linear-gradient(to bottom, rgba(235,236,240,1) 0%,rgba(255,255,255,1) 60%); */
+	border-radius: 1px;;
+    padding:2% 2% 2% 6%;
+    width: 33vw;
+	height: 45vh;
+	position: absolute;
+    display:flex;
+    justify-items: center;
+    align-items:center;
+	transform: translateX(0);
+	animation: onTop 12s 2s ease infinite;
+	box-shadow: 2px 5px 27px rgb(0 0 0 / 32%);
+}
+.card.one {
+    background-color: #cef3e5;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	animation-name: onTop;
+
+    transform:rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);
+}
+.card.two {
+    background-color: #fde592;
+	left: 20px;
+	top: 20px;
+	z-index: 1;
+	animation-name: onMiddle;
+}
+.card.three {
+    background-color: #cfebf1;
+	left: 40px;
+	top: 40px;
+	z-index: 0;
+	animation-name: onBottom;
+}
+.card span {
+	font-size: 24px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+@keyframes onTop {
+  5% {
+    transform: translateX(300px);
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+  }
+  10% {
+    transform: translateX(0) rotateX(5deg) rotateY(-0.892892deg) rotateZ(-8.92892deg) ;
+    z-index: 0;
+    left: 40px;
+    top: 40px;
+  }
+  40% {
+    transform: translateX(0);
+    z-index: 0;
+    left: 40px;
+    top: 40px;
+  }
+  50% {
+    transform: translateX(0);
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+  }
+  70% {
+    transform: translateX(0);
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+  }
+  80% {
+    transform: translateX(0);
+    z-index: 2;
+    left: 0;
+    top: 0;
+  }
+}
+@keyframes onMiddle {
+  10% {
+    transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);;
+    z-index: 2;
+    left: 0;
+    top: 0;
+  }
+  40% {
+    transform: translateX(0);
+    z-index: 2;
+    left: 0;
+    top: 0;
+  }
+  45% {
+    transform: translateX(300px);
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+  }
+  50% {
+    transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);
+    z-index: 0;
+    left: 40px;
+    top: 40px;
+  }
+  70% {
+    transform: translateX(0);
+    z-index: 0;
+    left: 40px;
+    top: 40px;
+  }
+  80% {
+    transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+  }
+}
+@keyframes onBottom {
+  10% {
+    transform: translate(0);
+    z-index: 0;
+    left: 20px;
+    top: 20px;
+  }
+  40% {
+    transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1);
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+  }
+  50% {
+    transform: translateX(0);
+    z-index: 2;
+    left: 0;
+    top: 0;
+  }
+  70% {
+    transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1);
+    z-index: 2;
+    left: 0;
+    top: 0;
+  }
+  75% {
+    transform: translateX(300px);
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+  }
+  80% {
+    transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1);
+    z-index: 0;
+    left: 40px;
+    top: 40px;
+  }
+}
+
 .connectIcons{
     display:flex;
     flex-direction: row;
@@ -30,8 +267,8 @@ height:45px;
 margin-bottom:45px;
 display:block;
 border:none;
-    
-    }
+ }
+ */
 .flip3{
     animation: flip3 8s cubic-bezier(0.23,1,0.32,1.2) infinite;
 }
@@ -52,8 +289,8 @@ border:none;
     pointer-events: none;
 }
 .cardStackModuleCard{
-    width: calc(85vmin - 3rem);
-    height: calc(85vmin - 3rem);
+    width: calc(50vmin - 3rem);
+    height: calc(50vmin - 3rem);
     overflow: hidden;
     /* background-color: var(--color-background); */
     /* background-color: #a4c9d8; */
@@ -178,7 +415,59 @@ font-size: 1.5em;
         transform: scale(1, 1);
     }
 }
+@media only screen and (max-width:1000px){
+    .mainPage{
+        display:flex;
+        flex-direction:column;
+    }
+    .mainPage .right{
+        height:55vh;
+    }
+    figure{
+        margin:0;
+    }
+    .mainPage .card{
+        width:55vh;
+        height:50vh;
+    }
+    .card.three{
+        padding-bottom:15%;
+    }
+    .card.two{
+        padding-bottom:10%;
+    }
+    .mainPage .left .frame{
+        display:none;
+    }
+}
 @media only screen and (max-width:600px){
+    .mainPage{
+        display:flex;
+        flex-direction:column;
+    }
+    .mainPage .right{
+        padding-top:20%;
+        height:40vh;
+    }
+    figure{
+        margin:0;
+    }
+    .mainPage .card{
+        width:initial;
+        height:initial;
+    }
+    .card.three{
+        padding-bottom:15%;
+    }
+    .card.two{
+        padding-bottom:10%;
+    }
+    .mainPage .left .frame{
+        display:none;
+    }
+    .brandStmt{
+        font-size: 11vw;
+    }
     .magicQuote{
         font-size:2.5em;
     }
