@@ -27,7 +27,7 @@
 .track{
     position:absolute;
     z-index:1;
-    top:18rem;
+    top:4rem;
     left:18rem;
     width:36rem;
     height:36rem;
@@ -37,7 +37,7 @@
 .circle{
     position:absolute;
     z-index:1;
-    top:18rem;
+    top:4rem;
     left:18rem;
     width:36rem;
     height:36rem;
