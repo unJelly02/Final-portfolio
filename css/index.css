@@ -509,6 +509,9 @@ transform: scale(1.05) linear 2s;
         align-items: center;
 
     }
+    .frame{
+        width:100%;
+    }
     .imageContainer{
         padding-left:40px;
     }
