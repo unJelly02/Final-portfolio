@@ -20,7 +20,7 @@
 .frame{
     position:relative;
     width:36rem;
-    height:36rem;
+    height: 20px;rem;
     background:inherit;
     overflow:hidden;
 }
