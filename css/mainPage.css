@@ -29,8 +29,8 @@
     z-index:1;
     top:8rem;
     left:18rem;
-    width:36rem;
-    height:36rem;
+    width:30rem;
+    height:30rem;
     border-radius:50%;
     border:6px dashed #666666;
 }
@@ -42,8 +42,8 @@
     z-index:1;
     top:8rem;
     left:18rem;
-    width:36rem;
-    height:36rem;
+    width:30rem;
+    height:30rem;
     border-radius:50%;
     /* background: #7b9fec; */
     transform:
