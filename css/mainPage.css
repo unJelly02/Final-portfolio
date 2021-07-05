@@ -19,7 +19,7 @@
 }
 .frame{
     position:relative;
-    width:36rem;
+    width:38rem;
     height: 20rem;
     background:inherit;
     overflow:hidden;
@@ -27,17 +27,20 @@
 .track{
     position:absolute;
     z-index:1;
-    top:4rem;
+    top:8rem;
     left:18rem;
     width:36rem;
     height:36rem;
     border-radius:50%;
     border:6px dashed #666666;
 }
+.right{
+    right:18rem;
+}
 .circle{
     position:absolute;
     z-index:1;
-    top:4rem;
+    top:8rem;
     left:18rem;
     width:36rem;
     height:36rem;
@@ -68,9 +71,21 @@
         transform:rotate(-340deg);
     }
 }
+@keyframes rotateClockwise{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
 .circle{
 
     animation:rotate 10s infinite linear;
+}
+.circle.clockwise{
+
+    animation:rotateClockwise 10s infinite linear;
 }
 
 .stack {
@@ -84,12 +99,13 @@
 }
 .card {
 
-	background-color: #f5f6f0;
+	/* background-color: #f5f6f0; */
 	/* background: linear-gradient(to bottom, rgba(235,236,240,1) 0%,rgba(255,255,255,1) 60%); */
 	border-radius: 1px;;
-    padding:2% 2% 2% 6%;
-    width: 33vw;
-	height: 45vh;
+    padding:6% 2% 2% 2%;
+    /* width: 33vw; */
+	/* height: 45vh; */
+    /* height:calc(40vmin + 5rem); */
 	position: absolute;
     display:flex;
     justify-items: center;
@@ -99,25 +115,32 @@
 	box-shadow: 2px 5px 27px rgb(0 0 0 / 32%);
 }
 .card.one {
-    background-color: #cef3e5;
+    background-color: #F0BC20;
 	left: 0;
 	top: 0;
 	z-index: 2;
 	animation-name: onTop;
+    /* transform:rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg); */
+    /* transform:rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg); */
 
-    transform:rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);
+    
 }
 .card.two {
-    background-color: #fde592;
+    background-color: #F1A144;
 	left: 20px;
 	top: 20px;
+    transform: translateX(0) ;
+    /* rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg); */
+    
 	z-index: 1;
 	animation-name: onMiddle;
 }
 .card.three {
-    background-color: #cfebf1;
+    background-color: #7AE5E5;
 	left: 40px;
 	top: 40px;
+    transform: translateX(0) ;
+    /* rotateX(5deg) rotateY(-0.892892deg) rotateZ(-8.92892deg) ; */
 	z-index: 0;
 	animation-name: onBottom;
 }
@@ -131,19 +154,20 @@
 	transform: translate(-50%,-50%);
 }
 @keyframes onTop {
-  5% {
+5% {
     transform: translateX(300px);
     z-index: 1;
     left: 20px;
     top: 20px;
-  }
-  10% {
-    transform: translateX(0) rotateX(5deg) rotateY(-0.892892deg) rotateZ(-8.92892deg) ;
+}
+10% {
+    transform: translateX(0);
+    /* transform: translateX(0) rotateX(5deg) rotateY(-0.892892deg) rotateZ(-8.92892deg) ; */
     z-index: 0;
     left: 40px;
     top: 40px;
-  }
-  40% {
+}
+40% {
     transform: translateX(0);
     z-index: 0;
     left: 40px;
@@ -160,17 +184,18 @@
     z-index: 1;
     left: 20px;
     top: 20px;
-  }
+}
   80% {
     transform: translateX(0);
     z-index: 2;
     left: 0;
     top: 0;
-  }
+}
 }
 @keyframes onMiddle {
   10% {
-    transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);;
+    /* transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);; */
+    transform: translateX(0) ;
     z-index: 2;
     left: 0;
     top: 0;
@@ -188,7 +213,8 @@
     top: 20px;
   }
   50% {
-    transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);
+    transform: translateX(0) ;
+    /* transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg); */
     z-index: 0;
     left: 40px;
     top: 40px;
@@ -200,7 +226,8 @@
     top: 40px;
   }
   80% {
-    transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg);
+    /* transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg); */
+    transform: translateX(0) ;
     z-index: 1;
     left: 20px;
     top: 20px;
@@ -214,7 +241,8 @@
     top: 20px;
   }
   40% {
-    transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1);
+    transform: translateX(0) ;
+    /* transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1); */
     z-index: 1;
     left: 20px;
     top: 20px;
@@ -226,7 +254,8 @@
     top: 0;
   }
   70% {
-    transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1);
+    transform: translateX(0) ;
+    /* transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1); */
     z-index: 2;
     left: 0;
     top: 0;
@@ -238,7 +267,8 @@
     top: 20px;
   }
   80% {
-    transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1);
+    /* transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1); */
+    transform: translateX(0) ;
     z-index: 0;
     left: 40px;
     top: 40px;
