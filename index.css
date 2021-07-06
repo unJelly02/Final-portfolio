@@ -269,6 +269,7 @@ p{
 }
 .swingingDoodle{
     width:100%;
+    opacity:0.9;
     }
 .mainPage.contact{
     flex-direction:column;
@@ -473,6 +474,7 @@ transform: scale(1.05) linear 2s;
         }
     .swingingDoodle{
         width:75%;
+        opacity:0.8;
         }
 
     .workPara{
