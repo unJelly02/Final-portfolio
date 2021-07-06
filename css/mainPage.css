@@ -142,6 +142,15 @@
     transform: translateX(0) ;
     /* rotateX(5deg) rotateY(-0.892892deg) rotateZ(-8.92892deg) ; */
 	z-index: 0;
+	animation-name: onEndin;
+}
+.card.four {
+    background-color: #3db2f0;
+	left: 40px;
+	top: 40px;
+    transform: translateX(0) ;
+    /* rotateX(5deg) rotateY(-0.892892deg) rotateZ(-8.92892deg) ; */
+	z-index: 0;
 	animation-name: onBottom;
 }
 .card span {
@@ -233,7 +242,7 @@
     top: 20px;
   }
 }
-@keyframes onBottom {
+@keyframes onEnding {
   10% {
     transform: translate(0);
     z-index: 0;
@@ -253,27 +262,75 @@
     left: 0;
     top: 0;
   }
-  70% {
+  60% {
     transform: translateX(0) ;
     /* transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1); */
     z-index: 2;
     left: 0;
     top: 0;
   }
-  75% {
+  65% {
     transform: translateX(300px);
     z-index: 1;
     left: 20px;
     top: 20px;
   }
-  80% {
+  70% {
     /* transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1); */
     transform: translateX(0) ;
     z-index: 0;
     left: 40px;
     top: 40px;
   }
+  80% {
+    /* transform: translateX(0) rotateX(5deg) rotateY(0.24895deg) rotateZ(2.4895deg); */
+    transform: translateX(0) ;
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+  }
 }
+@keyframes onBottom {
+    10% {
+    transform: translate(0);
+    z-index: 0;
+    left: 20px;
+    top: 20px;
+    }
+    40% {
+    transform: translateX(0) ;
+      /* transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1); */
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+    }
+    50% {
+    transform: translateX(0);
+      z-index: 2;
+      left: 0;
+      top: 0;
+    }
+    70% {
+      transform: translateX(0) ;
+      /* transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1); */
+      z-index: 2;
+      left: 0;
+      top: 0;
+    }
+    75% {
+      transform: translateX(300px);
+      z-index: 1;
+      left: 20px;
+      top: 20px;
+    }
+    80% {
+      /* transform: translateX(0) rotateX(5deg) rotateY(-0.877756deg) rotateZ(-8.77756deg) scale(1); */
+      transform: translateX(0) ;
+      z-index: 0;
+      left: 40px;
+      top: 40px;
+    }
+  }
 
 .connectIcons{
     display:flex;
