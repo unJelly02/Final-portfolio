@@ -4,6 +4,10 @@ body{
     /* padding-top:40px; */
     box-sizing:border-box;
 }
+h1,h1,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+    color:#212121;
+}
 
 .fontSize4{
     font-size:4rem;

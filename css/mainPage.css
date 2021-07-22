@@ -1,6 +1,7 @@
 /* .subTitle:hover~ hr{
     font-size:5em;
 } */
+
 .mainHeading{
     display:flex;
     flex-direction:column;
@@ -13,8 +14,8 @@
     width:100%;
 }
 .brandStmt{
-    font-size: 4vw;
-    color: #697db7;
+    font-size: 3.2vw;
+    color: #394158;
 
 }
 .frame{
@@ -420,6 +421,16 @@ border:none;
     justify-content:center;
     padding:7em 10em;
 }
+.collaborateSection{
+
+    background-color: #fceccb;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    padding:10em 10em;
+}
 .magicDarkQuotesection{
 
     background-color: #000000;
@@ -444,6 +455,10 @@ border:none;
     /* font-family: sacramento; */
     font-size:3.6em;
     /* color:#ffffff; */
+}
+.contactQuote{
+    font-size:4vw;
+    color:#011115;
 }
 .author{
     margin:1em;
