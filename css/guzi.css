@@ -8,6 +8,9 @@
     align-items: center;
 
 }
+/* .mainPage{
+justify-content: center;
+} */
 .rem5{
     font-size: 6rem;
 }
@@ -38,6 +41,10 @@
 }
 .flexContainer div{
     box-shadow: none!important;
+}
+.flexContainer div#piechart,.flexContainer div#piechart2,.flexContainer div#piechart3{
+    margin:0px;
+    padding:0px;
 }
 .mainPage{
     justify-content:center;

@@ -12,7 +12,6 @@
 
 }
 .icons{
-    /* padding:10px; */
     border-radius:50%;
     box-shadow: 0 4px 8px 0 rgba(54, 54, 54, 0.2), 0 6px 20px 0 rgba(53, 52, 52, 0.11);
     
@@ -59,6 +58,9 @@
 .socialIcons{
     display:flex;
     flex-direction:row;
-    gap:3vw;
+    /* gap:3vw; */
     margin-bottom:5px;
+}
+.socialIcons a{
+padding: 10px;
 }

@@ -59,6 +59,18 @@ hr{
     background-color: #f7f6f2;
     /* background-image: url(images/aboutMe/bgDesignPink.png); */
 }
+.img-magnifier-container {
+    position:relative;
+  }
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 350px;
+    height: 350px;
+}
 
 html{
     scroll-behavior:smooth;
@@ -208,7 +220,6 @@ justify-content: center;
 .imageContainer:hover {
     /* opacity: 1; */
     cursor:pointer;
-    opacity: 0.6;
     transform: scale(1.05);
 }
 .img{

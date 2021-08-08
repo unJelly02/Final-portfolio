@@ -2,6 +2,7 @@
     font-size:5em;
 } */
 
+
 .mainHeading{
     display:flex;
     flex-direction:column;
@@ -423,13 +424,13 @@ border:none;
 }
 .collaborateSection{
 
-    background-color: #fceccb;
+    background-color: #f7ebe4;
     display:flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content:center;
-    padding:10em 10em;
+    padding:5em 10em;
 }
 .magicDarkQuotesection{
 
@@ -457,8 +458,9 @@ border:none;
     /* color:#ffffff; */
 }
 .contactQuote{
-    font-size:4vw;
-    color:#011115;
+    font-size:4rem;
+    color:#444444;
+    font-weight:600;
 }
 .author{
     margin:1em;
