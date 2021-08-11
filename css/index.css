@@ -8,6 +8,11 @@ h1,h1,h3,h4,h5,h6{
     font-family: 'Quicksand', sans-serif;
     color:#212121;
 }
+.tinyScript{
+    font-size:0.7em;
+    font-weight:bold;
+    color:#121212;
+}
 
 .fontSize4{
     font-size:4rem;
@@ -231,7 +236,7 @@ justify-content: center;
 }
 .kkfsf-shape{
     position:absolute;
-    left:3%;
+    right:3%;
     width:50%;
     opacity:0.2;
 }

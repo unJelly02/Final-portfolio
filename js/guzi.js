@@ -1,3 +1,20 @@
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+
+// console.log("Your index.js file is loaded correctly");
+$("#toggle").on("click", function(){
+  $("#dropDown").slideToggle();
+});
+
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '80px',
+  duration: 2000,
+  reset: true
+});
         // // Load google charts
         // google.charts.load('current', {'packages':['corechart']});
         // google.charts.setOnLoadCallback(drawChart);
